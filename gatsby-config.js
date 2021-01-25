@@ -8,7 +8,7 @@ module.exports = {
     description: config.siteDescription,
     ...config,
   },
-  pathPrefix: `/`,
+  pathPrefix: `/docs`,
   plugins: [
     {
       resolve: `gatsby-source-filesystem`,
