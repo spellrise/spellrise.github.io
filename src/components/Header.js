@@ -241,7 +241,7 @@ const Header = () => {
         </SkipMainContent>
         <HeaderLinkTitle to={`/`} aria-label={`View home page`}>
           {iconSrc && <HeaderImage src={iconSrc} alt={siteTitle} />}
-          <HeaderLinkTitleContent>{headerTitle}</HeaderLinkTitleContent>
+          <HeaderLinkTitleContent>Spellrise</HeaderLinkTitleContent>
         </HeaderLinkTitle>
         <HeaderLinksContainer>
           <HeaderLinks headerLinks={headerLinks} />
