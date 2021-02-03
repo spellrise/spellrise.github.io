@@ -1,6 +1,6 @@
 module.exports = {
-  siteTitle: 'gatsby-starter-morning-dew',
-  siteDescription: 'A Gatsby theme/starter to build lightning-fast websites',
+  siteTitle: 'Spellrise',
+  siteDescription: 'All about an upcoming game called Spellrise.',
   authorName: 'Maxence Poutord',
   twitterUsername: '_maxpou',
   authorAvatar: 'avatar.jpeg', // file in content/images
@@ -20,11 +20,11 @@ module.exports = {
   background_color: '#ffffff',
   theme_color: '#222222',
   display: 'standalone',
-  icon: 'content/images/baymax.png',
+  icon: 'content/images/spellrise-logo.jpg',
   postsPerPage: 6,
   disqusShortname: 'maxpou',
-  headerTitle: 'gatsby-starter-morning-dew',
-  headerLinksIcon: 'baymax.png', //  (leave empty to disable: '')
+  headerTitle: 'Spellrise',
+  headerLinksIcon: 'spellrise-logo.jpg', //  (leave empty to disable: '')
   headerLinks: [
     {
       label: 'Blog',
@@ -32,11 +32,11 @@ module.exports = {
     },
     {
       label: 'About',
-      url: '/about-gatsby-starter-morning-dew',
+      url: '/about',
     },
     {
-      label: 'Installation',
-      url: '/how-to-install',
+      label: 'World of Spellrise',
+      url: '/world-of-spellrise',
     },
   ],
   // Footer information (ex: Github, Netlify...)
@@ -54,11 +54,11 @@ module.exports = {
         },
         {
           label: 'About',
-          url: '/about-gatsby-starter-morning-dew',
+          url: '/about',
         },
         {
-          label: 'Installation',
-          url: '/how-to-install',
+          label: 'World of Spellrise',
+          url: '/world-of-spellrise',
         },
       ],
     },

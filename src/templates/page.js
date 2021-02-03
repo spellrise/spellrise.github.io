@@ -31,11 +31,11 @@ export default props => {
         </article>
       </Wrapper>
 
-      {page.frontmatter.disqus && (
+      {/* {page.frontmatter.disqus && (
         <Wrapper as="aside">
           <Disqus slug={page.frontmatter.slug} title={page.frontmatter.title} />
         </Wrapper>
-      )}
+      )} */}
     </Layout>
   )
 }
