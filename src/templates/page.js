@@ -6,7 +6,6 @@ import Content from '../components/Content'
 import Wrapper from '../components/Wrapper'
 import Hero from '../components/Hero'
 import SEO from '../components/SEO'
-import Disqus from '../components/Disqus'
 
 export default props => {
   const page = props.data.page
@@ -49,7 +48,6 @@ export const pageQuery = graphql`
         title
         date(formatString: "MMMM DD, YYYY")
         slug
-        disqus
         cover {
           publicURL
         }
