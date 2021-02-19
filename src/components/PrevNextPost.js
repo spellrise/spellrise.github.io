@@ -4,7 +4,6 @@ import styled from 'styled-components'
 import useSiteMetadata from '../hooks/use-site-config'
 import useSiteImages from '../hooks/use-site-images'
 import TagList from './TagList'
-import Flag from './Flag'
 import { ReadingTime, Bull } from './Commons'
 
 const PreviewContainer = styled.aside`
@@ -96,10 +95,7 @@ const PrevNextPost = props => {
                 />
                 <PreviewContent>
                   <header>
-                    <h2>
-                      {defaultLang !== language && <Flag language={language} />}
-                      {title}
-                    </h2>
+                    <h2>{title}</h2>
                   </header>
                   <section>
                     <p>{excerpt}</p>

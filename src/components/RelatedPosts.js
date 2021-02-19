@@ -1,6 +1,5 @@
 import React from 'react'
 import { StyledLink } from './Commons'
-import Flag from './Flag'
 import useSiteMetadata from '../hooks/use-site-config'
 
 const RelatedPosts = props => {
@@ -16,7 +15,6 @@ const RelatedPosts = props => {
         return (
           <li key={slug}>
             <StyledLink to={`/${slug}`}>
-              {defaultLang !== language && <Flag language={language} />}
               {title}
             </StyledLink>
           </li>

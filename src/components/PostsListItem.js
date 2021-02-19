@@ -1,6 +1,5 @@
 import React from 'react'
 import { Link } from 'gatsby'
-import Flag from './Flag'
 import TagList from './TagList'
 import useSiteMetadata from '../hooks/use-site-config'
 import styled from 'styled-components'
@@ -57,8 +56,7 @@ const PostsListItem = props => {
     <Post>
       <PostHeader>
         <h2>
-          <PostTitleLink to={`/${slug}`}>
-            {defaultLang !== language && <Flag language={language} />}
+          <PostTitleLink to={`/${slug}`}> 
             {title}
           </PostTitleLink>
         </h2>
