@@ -44,7 +44,9 @@ Moses Hsu
 
 Pedro de Sant’Anna Novais
 
-Ryan Reiss
+**Ryan Reiss**
+
+Hey everybody! My name is Ryan Reiss, I am a 4th year science student at UBC. I have always been a gamer at heart, with some of my earliest memories being of playing games on my family’s shared desktop computer. In more recent years, I’ve started teaching myself how to program in Unity, and that led me to UBC GameDev where I joined Mana Juice Studios! I aspire to one day work in the game development industry as a professional programmer or general designer.
 
 Vincent Sastra
 
